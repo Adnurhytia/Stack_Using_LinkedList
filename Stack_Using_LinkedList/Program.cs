@@ -36,7 +36,7 @@ namespace StackUsingLinkedList_CSharp
 
             fresh.next = top;
             top = fresh;
-            Console.WriteLine("\n" + element + "pushed.")
+            Console.WriteLine("\n" + element + "pushed.");
         }
 
         public void pop()
